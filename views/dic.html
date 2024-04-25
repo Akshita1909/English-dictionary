@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>English Dictionary</title>
+    <link rel="stylesheet" href="style2.css"><link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<body>
+
+  <nav>
+    <h1>SALAZAR.</h1>
+    <div class="nav-part">
+        <div class="nav-elem">
+            <h4><a href="home.html">HOME</a></h4>
+        </div>
+        <div class="nav-elem">
+            <h4><a href="dic.html">DICTIONARY</a></h4>
+        </div>
+        <div class="nav-elem">
+            <h4><a href="home.html#page2" onclick="smoothScroll(event)">WHY US?</a></h4>
+        </div>
+        <div class="nav-elem">
+            <h4><a href="home.html#footerContainer" onclick="smoothScroll(event)">CONTACT</a></h4>
+        </div>
+    </div>
+
+    <a href="login.html">
+      <button>LOGIN 
+          <svg fill="none" viewBox="0 0 20 20">
+              <path fill="#fff" d="M2.5 14.375V17.5h3.125l9.217-9.217-3.125-3.125L2.5 14.375Zm14.758-8.508a.83.83 0 0 0 0-1.175l-1.95-1.95a.83.83 0 0 0-1.175 0l-1.525 1.525 3.125 3.125 1.525-1.525Z"></path>
+          </svg>
+      </button>
+  </a>  
+</nav>
+
+
+
+<div class="wrapper">
+    <header>English Dictionary</header>
+    <div class="search">
+      <input type="text" placeholder="Search a word" required spellcheck="false">
+      <i class="fas fa-search"></i>
+      <span class="material-icons">close</span>
+    </div>
+    <p class="info-text">Type any existing word and press enter to get meaning, example, synonyms, etc.</p>
+    <ul>
+      <li class="word">
+        <div class="details">
+          <p>__</p>
+          <span>_ _</span>
+        </div>
+        <i class="fas fa-volume-up"></i>
+      </li>
+      <div class="content">
+        <li class="meaning">
+          <div class="details">
+            <p>Meaning</p>
+            <span>___</span>
+          </div>
+        </li>
+        <li class="example">
+          <div class="details">
+            <p>Example</p>
+            <span>___</span>
+          </div>
+        </li>
+        <li class="synonyms">
+          <div class="details">
+            <p>Synonyms</p>
+            <div class="list"></div>
+          </div>
+        </li>
+      </div>
+    </ul>
+  </div>
+
+<script src="index.js"></script>
+</body>
+</html>

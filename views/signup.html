@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body class="dot">
+    <nav>
+      <h1>SALAZAR.</h1>
+      <div class="nav-part">
+        <div class="nav-elem">
+          <h4><a href="home.html">HOME</a></h4>
+        </div>
+        <div class="nav-elem">
+          <h4><a href="dic.html">DICTIONARY</a></h4>
+        </div>
+        <div class="nav-elem">
+          <h4>
+            <a href="home.html#page2" onclick="smoothScroll(event)">WHY US?</a>
+          </h4>
+        </div>
+        <div class="nav-elem">
+          <h4>
+            <a href="home.html#footerContainer" onclick="smoothScroll(event)"
+              >CONTACT</a
+            >
+          </h4>
+        </div>
+      </div>
+
+      <a href="login.html">
+        <button>
+          LOGIN
+          <svg fill="none" viewBox="0 0 20 20">
+            <path
+              fill="#fff"
+              d="M2.5 14.375V17.5h3.125l9.217-9.217-3.125-3.125L2.5 14.375Zm14.758-8.508a.83.83 0 0 0 0-1.175l-1.95-1.95a.83.83 0 0 0-1.175 0l-1.525 1.525 3.125 3.125 1.525-1.525Z"
+            ></path>
+          </svg>
+        </button>
+      </a>
+      <div id="nav-bottom"></div>
+    </nav>
+
+    <div class="login-box">
+      <h2>Signup Here!</h2>
+      <br />
+      <form method="post" action="/submit">
+        <div class="user-box">
+          <input type="text" name="First_Name" required />
+          <label>First Name</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="Last_Name" required />
+          <label>Last Name</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="Contact_Info" required />
+          <label>Email Address/ Phone Number</label>
+        </div>
+        <div class="user-box">
+          <input type="password" name="User_Password" required />
+          <label>Create Password</label>
+        </div>
+        <br />
+        <div class="user-box">
+          <p>Date of Birth: * <input type="date" name="DOB" required /></p>
+        </div>
+        <a href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <input type="submit" value="SignUp" class="login-box a" />
+        </a>
+      </form>
+    </div>
+  </body>
+</html>
