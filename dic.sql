@@ -12,4 +12,3 @@ CREATE TABLE Users (
 SELECT * FROM Users;
 
 
-ALTER USER 'root'@'localhost' identified with mysql_native_password by '@Abhi2003';
